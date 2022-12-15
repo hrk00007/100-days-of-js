@@ -83,7 +83,7 @@ function showScores() {
         <a href="index.html">Take Quiz Again</a>
     </div>
     `;
-    let quizElement = document.getElementsByClassName("quiz")
+    let quizElement = document.getElementById("quiz");
     quizElement.innerHTML = quizEndHTML;
 };
 
@@ -114,7 +114,7 @@ displayQuestion();
 
 
 // Add A CountDown for the Quiz
-let time = 1;
+let time = 10;
 let quizTimeInMinutes = time * 60 * 60;
 let quizTime = quizTimeInMinutes / 60;
 
