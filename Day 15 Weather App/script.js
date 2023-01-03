@@ -81,6 +81,7 @@ function getInput(e){
 
 function getData(city){
     fetch(`${api.base}weather?q=${city}&units=metric&appid=${api.key}`)
+
     .then(response=>{
         return response.json();
     })
