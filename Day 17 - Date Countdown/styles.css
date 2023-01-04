@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d9afd9;
+  background-image: linear-gradient(40deg, #d9afd9 0%, #97d9e1 100%);
+
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  /* padding-top: 100px; */
+}
+h1 {
+  font-size: 55px;
+  color: #fff;
+  line-height: 2;
+}
+
+#countdown {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  font-size: 45px;
+  color: var(--white);
+  border-radius: 5px;
+}
